@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.moreLeft {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #00A887;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.moreLeft > h3 {
+  font-weight: 400;
+  font-size: 25px;
+  font-family: display-regular, sans-serif;
+  margin-bottom: 30px;
+}
+
+.moreLeft > ul {
+  margin-top: 15px;
+  line-height: 40px;
+  font-size: 19px;
+  border-radius: 4px;
+}
+
+.moreLeft > ul > li::marker{
+    font-size: 1.5rem;
+    color: white;
+    font-family: display-regular, sans-serif;
+}
+
+.moreLeft > button {
+  width: 350px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: black;
+  font-size: 19px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-family: display-regular, sans-serif;
+}
+
+.moreLeft > button:hover {
+  background-color: #00A887;
+  color: white;
+}
+
+.moreRight {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #00A887;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.moreRight > img {
+  height: 410px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 850px) {
+  .moreRight {
+    width: 400px;
+  }
+
+  .moreRight > img {
+    height: 300px;
+  }
+}

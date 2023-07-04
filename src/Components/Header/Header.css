@@ -1,0 +1,452 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.headerOut {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 50%;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+  margin-right: 30px;
+  font-family: display-regular, sans-serif;
+}
+
+#menuIcon {
+  display: none;
+}
+
+#closeIcon {
+  display: none;
+}
+
+.closeIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+  margin-right: 30px;
+}
+
+.links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 70px;
+}
+
+.links > p {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  color: black;
+  font-family: display-Regular,sans-serif!important;
+  cursor: pointer;
+}
+
+.links > p:hover{
+  color: #00A887;
+}
+
+.hLink {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  color: black;
+  font-family: display-Regular,sans-serif!important;
+  cursor: pointer;
+}
+
+.hLink:hover {
+  color: #00A887;
+}
+
+.headerSidebar {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding-left: 20px;
+  background-color: #006666;
+  display: none;
+  border-radius: 8px;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+}
+
+#headerSidebar {
+  display: none;
+}
+
+.headerHome {
+  margin-bottom: 20px;
+}
+
+.headerHome > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+}
+
+.companyTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.companyTop > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+  line-height: 30px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.companyFoward {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.companyDown {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-left: 40px;
+  display: none;
+}
+
+.serviceFoward {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.serviceDown {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-left: 50px;
+  display: none;
+  color: gray;
+}
+
+.techFoward{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.techDown {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: none;
+  margin-left: 30px;
+}
+
+.companyBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  display: none;
+}
+
+.companyBottom > p {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+  cursor: pointer;
+}
+
+.servicesTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.servicesTop > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.servicesBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.servicesBottom > p {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: display-Regular,sans-serif!important;
+  color: black;
+}
+
+.techStackTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.techStackTop > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+}
+
+.techStackBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.techStackBottom > p {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+  cursor: pointer;
+}
+
+.blogLink > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: display-Regular,sans-serif!important;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.linkedInDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0A66C2;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.linkedInIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.facebookDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3B5998;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.facebookIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.emailDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DD2E44;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.emailIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.phoneDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DD2E44;
+  cursor: pointer;
+}
+
+.phoneIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  .links {
+    display: none;
+  }
+
+  #menuIcon{
+    display: flex;
+  }
+
+  #closeIcon {
+    display: flex;
+  }
+
+  #headerSidebar {
+    display: flex;
+  }
+
+  #companyFoward {
+    display: none;
+  }
+
+  #companyDown {
+    display: flex;
+  }
+
+  #companyBottom {
+    display: flex;
+  }
+
+  #serviceFoward {
+    display: none;
+  }
+
+  #serviceDown {
+    display: flex;
+  }
+
+  #servicesBottom {
+    display: flex;
+  }
+
+  #techFoward {
+    display: none;
+  }
+
+  #techDown {
+    display: flex;
+  }
+
+  #techStackBottom {
+    display: flex;
+  }
+
+  .logo {
+    margin-right: 75%;
+    display: flex;
+  }
+}

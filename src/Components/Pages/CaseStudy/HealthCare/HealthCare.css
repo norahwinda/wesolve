@@ -1,0 +1,241 @@
+.healthCare {
+  width: 100%;
+}
+
+.healthCareCompany {
+  background-color: #2A2B3B;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40px;
+}
+
+.healthCareCompanyTop {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.healthCareCompanyTopImg {
+  width: 13rem!important;
+  height: fit-content;
+}
+
+.healthCareCompanyTopImg > img {
+  object-fit: contain;
+  width: 100%!important;
+  position: relative!important;
+  height: unset!important;
+  vertical-align: middle;
+  border-radius: 0.375rem!important;
+}
+
+.healthCareCompanyTopRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.healthCareCompanyTopRight > h1 {
+  font-size: 35px;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+  color: white;
+  font-family: display-Bold,sans-serif;
+  width: 70%;
+}
+
+.healthCareCompanyTopRight > p {
+  line-height: 1.5em!important;
+  font-size: 22px!important;
+  letter-spacing: .05em!important;
+  font-weight: 400!important;
+  font-family: display-Light,sans-serif!important;
+  max-width: 48rem!important;
+  margin-top: 0.5rem!important;
+  color: white;
+}
+
+.healthCareCompanyMiddle {
+  display: flex;
+  margin-top: 40px;
+}
+
+.healthCareCompanyMiddle > h5 {
+  width: 7rem!important;
+  height: 1.5rem!important;
+  margin-right: 0.5rem!important;
+  color: rgba(255,255,255,.7)!important;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.healthCareCompanyMiddle > p {
+  flex: 1 1 0%!important;
+  height: 100%!important;
+  color: rgba(255,255,255,.7)!important;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+  margin-left: 25px;
+}
+
+.healthCareCompanyBottom {
+  display: flex;
+  margin-top: 40px;
+}
+
+.healthCareCompanyBottom > h5 {
+  width: 7rem!important;
+  height: 1.5rem!important;
+  margin-right: 0.5rem!important;
+  color: rgba(255,255,255,.7)!important;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.healthCareCompanyBottom > p {
+  flex: 1 1 0%!important;
+  height: 100%!important;
+  color: rgba(255,255,255,.7)!important;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+  margin-left: 25px;
+}
+
+.healthCareDev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.healthCareDev > img {
+  width: 80%;
+}
+
+.aboutCl {
+  padding-left: 10%;
+  padding-top: 70px;
+}
+
+.aboutCl > h1 {
+  font-weight: 600!important;
+  font-size: 24px!important;
+  line-height: 1.5em!important;
+  margin-bottom: 1rem!important;
+  letter-spacing: .01em;
+  font-family: display-Regular,sans-serif;
+}
+
+.aboutCl > p {
+  width: 80%;
+  margin-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: .01em!important;
+  font-size: 14px!important;
+  line-height: 1.5em!important;
+  font-family: display-Regular,sans-serif!important;
+  color: rgb(112 112 112)!important;
+}
+
+.theProblem {
+  padding-left: 10%;
+  padding-top: 70px;
+}
+
+.theProblem > h1 {
+  font-weight: 600!important;
+  font-size: 24px!important;
+  line-height: 1.5em!important;
+  margin-bottom: 1rem!important;
+  letter-spacing: .01em;
+  font-family: display-Regular,sans-serif;
+}
+
+.theProblem > p {
+  width: 80%;
+  margin-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: .01em!important;
+  font-size: 14px!important;
+  line-height: 1.5em!important;
+  font-family: display-Regular,sans-serif!important;
+  color: rgb(112 112 112)!important;
+}
+
+.theProblem > ul {
+  list-style: revert;
+  list-style-position: inside;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.theProblem > ul > li {
+  letter-spacing: .01em!important;
+  font-size: 14px!important;
+  line-height: 1.5em!important;
+  font-family: display-Regular,sans-serif!important;
+  color: rgb(52 51 58);
+}
+
+.requirements {
+  padding-left: 10%;
+  padding-top: 70px;
+}
+
+.requirements > h1 {
+  font-weight: 600!important;
+  font-size: 24px!important;
+  line-height: 1.5em!important;
+  margin-bottom: 1rem!important;
+  letter-spacing: .01em;
+  font-family: display-Regular,sans-serif;
+}
+
+.requirements > img {
+  width: 80%;
+}
+
+.development {
+  padding-left: 10%;
+  padding-top: 70px;
+}
+
+.development > h1 {
+  font-weight: 600!important;
+  font-size: 24px!important;
+  line-height: 1.5em!important;
+  margin-bottom: 1rem!important;
+  letter-spacing: .01em;
+  font-family: display-Regular,sans-serif;
+}
+
+.development > p {
+  width: 80%;
+  margin-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: .01em!important;
+  font-size: 14px!important;
+  line-height: 1.5em!important;
+  font-family: display-Regular,sans-serif!important;
+  color: rgb(112 112 112)!important;
+}
+
+.development > ul {
+  list-style: revert;
+  list-style-position: inside;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.development > ul > li {
+  letter-spacing: .01em!important;
+  font-size: 14px!important;
+  line-height: 1.5em!important;
+  font-family: display-Regular,sans-serif!important;
+  color: rgb(52 51 58);
+}
+

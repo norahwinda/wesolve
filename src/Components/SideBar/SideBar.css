@@ -1,0 +1,741 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.sideBar {
+  width: 50px;
+  height: 100vh;
+  background-color: #191937;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+#sideBar {
+  width: 150px;
+}
+
+#sideBar .homeIcon > p{
+  display: flex;
+}
+
+#sideBar .Logo > a {
+  display: flex;
+}
+
+#sideBar .globeIcone > p {
+  display: flex;
+}
+
+#sideBar .companyArrow {
+  display: flex;
+}
+
+#sideBar .servicesIcon > p {
+  display: flex;
+}
+
+#sideBar .serviceArrow {
+  display: flex;
+}
+
+#sideBar .techIcon > p {
+  display: flex;
+}
+
+#sideBar .techArrow {
+  display: flex;
+}
+
+#sideBar .blog > p {
+  display: flex;
+}
+
+#sideBar .buttonDiv {
+  display: flex;
+}
+
+#sideBar .qustion {
+  display: flex;
+}
+
+#sideBar .socialMediaLinks {
+  display: flex;
+}
+
+#sideBar .copyright > p {
+  display: flex;
+}
+
+.sideBar:hover {
+  width: 150px;
+}
+
+.sideBar:hover .homeIcon > p {
+  display: flex;
+}
+
+.sideBar:hover .Logo > a{
+  display: flex;
+}
+
+.sideBar:hover .globeIcone > p {
+  display: flex;
+}
+
+.sideBar:hover .companyArrow {
+  display: flex;
+}
+
+.sideBar:hover .servicesIcon > p {
+  display: flex;
+}
+
+.sideBar:hover .serviceArrow {
+  display: flex;
+}
+
+.sideBar:hover .techIcon > p {
+  display: flex;
+}
+
+.sideBar:hover .techArrow {
+  display: flex;
+}
+
+.sideBar:hover .blog > p {
+  display: flex;
+}
+
+.sideBar:hover .buttonDiv {
+  display: flex;
+}
+
+.sideBar:hover .qustion {
+  display: flex;
+}
+
+.sideBar:hover .socialMediaLinks {
+  display: flex;
+}
+
+.sideBar:hover .copyright > p {
+  display: flex;
+}
+
+.sideBarLogo {
+  width: 40px;
+  cursor: pointer;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Logo > a {
+  text-decoration: none;
+  color: white;
+  font-family: display-regular, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+  display: none;
+}
+
+.homeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.homeIcon > p {
+  text-decoration: none;
+  color: lightgray;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 30px;
+  margin-left: 10px;
+  display: none;
+}
+
+#home {
+  color: #006666;
+}
+
+.hIcon {
+  width: 20px;
+  height: 20px;
+  color: lightgray;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.homeIcon:hover > p{
+  color: white;
+  cursor: pointer;
+}
+
+.homeIcon:hover .hIcon {
+  color: white;
+}
+
+.globeIcone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.globeIcone > p {
+  text-decoration: none;
+  color: #006666;;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.globeIcone > p:hover {
+  color: lightgray;
+}
+
+#companyParagraph {
+  color: lightgray;
+}
+
+.companyIcon {
+  width: 20px;
+  height: 20px;
+  color: #006666;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.companyArrow {
+  height: 30px;
+  margin-top: 10px;
+  color: #006666;
+  display: none;
+}
+
+.globeIcone:hover .companyIcon {
+  color: lightgray;
+}
+
+.globeIcone:hover .companyArrow {
+  color: lightgray;
+}
+
+.servicesIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.servicesIcon > p {
+  text-decoration: none;
+  color: #006666;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#serviceParagraph {
+  color: lightgray;
+}
+
+.sIcon {
+  width: 20px;
+  height: 20px;
+  color: #006666;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.serviceArrow{
+  height: 30px;
+  margin-top: 10px;
+  color: #006666;
+  display: none;
+}
+
+.servicesIcon:hover > p{
+  color: lightgray;
+}
+
+.servicesIcon:hover .sIcon {
+  color: lightgray;
+}
+
+.servicesIcon:hover .serviceArrow {
+  color: lightgray;
+}
+
+.techIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.techIcon > p {
+  text-decoration: none;
+  color: #006666;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+#tIcon {
+  color: lightgray;
+}
+
+.tIcon {
+  width: 20px;
+  height: 20px;
+  color: #006666;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.techArrow {
+  height: 30px;
+  margin-top: 10px;
+  color: #006666;
+  display: none;
+}
+
+.techIcon:hover > p{
+  color: lightgray;
+}
+
+.techIcon:hover .tIcon {
+  color: lightgray;
+}
+
+.techIcon:hover .techArrow {
+  color: lightgray;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border-bottom: 1px dimgray solid;
+  padding-bottom: 25px;
+}
+
+.blog > p {
+  text-decoration: none;
+  color: #006666;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.blog > p:hover {
+  color: lightgray;
+}
+
+.bookIcon {
+  width: 20px;
+  height: 20px;
+  color: #006666;
+  cursor: pointer;
+  margin-left: 10px; 
+}
+
+.blog:hover {
+  color: lightgray;
+}
+
+.blog:hover .bookIcon {
+  color: lightgray;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.buttonDiv > button {
+  width: 120px;
+  height: 35px;
+  background-color: #006666;
+  color: white;
+  font-family: display-regular, sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonDiv > button:hover {
+  background: none;
+}
+
+.qustion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.questionTop {
+  color: dimgray;
+}
+
+.questionBottom {
+  color: #006666;
+  cursor: pointer;
+}
+
+.questionBottom:hover {
+  color: lightgray;
+}
+
+.socialMediaLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px dimgray solid;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  display: none;
+}
+
+.copyright > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 25px;
+  color: dimgray;
+  font-size: small;
+  display: none;
+  font-family: display-regular, sans-serif;
+}
+
+.sideBarFlib {
+  margin-left: 150px;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #191937;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: none;
+}
+
+#sideBarFlip {
+  display: flex;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: none;
+}
+
+#companyInfo {
+  display: flex;
+}
+
+.companyInfo > a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: display-regular, sans-serif;
+  color: #006666;
+  margin-bottom: 10px;
+}
+
+.companyInfo > a:hover {
+  color: lightgray;
+}
+
+.servicesInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: none;
+}
+
+#servicesInfo {
+  display: flex;
+}
+
+.servicesInfo > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+  margin-bottom: 30px;
+}
+
+.servicesInfo > a:hover {
+  color: white;
+}
+
+.techStackInfo {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+#techStackInfo {
+  display: flex;
+}
+
+.reactNative {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reactNative > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.reactNative > a:hover {
+  color: white;
+}
+
+.nativeIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #5ED3F3;
+  width: 20px;
+  height: 20px;
+}
+
+.next {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nextIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: black;
+  width: 20px;
+  height: 20px;
+}
+
+.next > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.next > a:hover {
+  color: white;
+}
+
+.flutter {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.flutterIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+}
+
+.flutter > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.flutter > a:hover {
+  color: white;
+}
+
+.design {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.design > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.designIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+}
+
+.design > a:hover {
+  color: white;
+}
+
+.graphql {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.graphql > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666; 
+}
+
+.graphql > a:hover {
+  color: white;
+}
+
+.graphalIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #E632AD;
+  width: 20px;
+  height: 20px;
+}
+
+.node {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.node > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.node > a:hover {
+  color: lightgray;
+}
+
+.nodeIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.postgresql {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.postgresql > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.postgresql > a:hover {
+  color: white;
+}
+
+.postgresqlIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #2F6792;
+  width: 20px;
+  height: 20px; 
+}
+
+.serverless {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.serverless > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #006666;
+}
+
+.serverless > a:hover {
+  color: white;
+}
+
+.serverlessIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #2F6792;
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .sideBar {
+    display: none;
+  }
+
+  .sideBarFlib {
+    display: none;
+  }
+
+  #sideBarFlip {
+    display: none;
+  }
+}

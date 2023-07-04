@@ -1,0 +1,49 @@
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 320px;
+    height: 550px;
+    background-color: white;
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 8px;
+  }
+  
+  .mobile > img {
+    width: 320px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .mobile > h2 {
+    margin-top: 50px;
+    font-family: display-Regular,sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  
+  .paragraph {
+    margin-top: 20px;
+    font-family: display-Regular,sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    color: gray;
+  }
+  
+  .use {
+    margin-top: 15%;
+    font-family: display-Regular,sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+    color: black;
+    background-color: #F7F9F9;
+    width: 230px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  

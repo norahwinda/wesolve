@@ -1,0 +1,190 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.heroSection {
+  height: 100vh;
+  padding-top: 150px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroLeft {
+  height: 400px;
+  margin-left: auto;
+}
+
+.heroImage {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 0.75);
+  margin-right: auto;
+  margin-left: 35px;
+}
+
+.heroImage > img {
+  width: 99%;
+}
+
+.title {
+  font-size: 2.5em;
+  line-height: inherit;
+  font-family: display-Regular,sans-serif!important;
+  font-weight: 800;
+  animation: titleChangeColor 10s linear infinite;
+  animation-delay: 5s;
+}
+
+.titleTwo {
+  font-size: 2.5em;
+  line-height: inherit;
+  font-family: display-Regular,sans-serif!important;
+  font-weight: 800;
+  animation: titleTwoChangeColor 15s linear infinite;
+  animation-delay: 10s;
+}
+
+.titleThree {
+  line-height: 1;
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: display-Regular,sans-serif!important;
+  animation: titleThreeChangeColor 10s linear infinite;
+  animation-delay: 15s;
+}
+
+@keyframes titleChangeColor {
+  0% {
+    color: #EE0795;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes titleTwoChangeColor {
+  0% {
+    color: #7051FD;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes titleThreeChangeColor {
+  0% {
+    color: #9233DF;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  color: black;
+  font-size: 19px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #00A887;
+  font-family: display-Regular,sans-serif!important;
+  animation-name: moveUp;
+  animation-duration: 1s;
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.heroBottom {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+  font-family: display-Regular,sans-serif!important;
+  font-size: 34px;
+  line-height: 1.5em;
+}
+
+.heroBottom > span {
+  color: #00A887;
+}
+
+@media only screen and (max-width: 850px) {
+  .heroBottom {
+    width: 15%px;
+    margin-left: 50px;
+    font-size: 17px;
+  }
+
+  .btn {
+    margin-left: 100px;
+  }
+
+  .title {
+    margin-left: 50px;
+    font-size: 1.4em;
+    width: 150px;
+  }
+
+  .titleTwo {
+    margin-left: 50px;
+    font-size: 1.4em;
+    width: 150px;
+  }
+
+  .titleThree {
+    margin-left: 50px;
+    font-size: 1.4em;
+    width: 150px;
+  }
+
+  .btn {
+    margin-left: 50px;
+  }
+
+  .heroLeft {
+    margin-left: 50px;
+  }
+
+  .heroImage {
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+}

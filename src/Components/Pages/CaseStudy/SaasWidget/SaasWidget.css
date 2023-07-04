@@ -1,0 +1,527 @@
+.saasWidget {
+  width: 100%;
+  height: 100%;
+}
+
+.saasWidget > h1 {
+  margin-top: 80px;
+  margin-left: 17%;
+  margin-right: 17%;
+  letter-spacing: 0.05em;
+  font-family: display-Bold,sans-serif!important;
+  font-size: 48px;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.saasWidget > img {
+  width: 70%;
+  height: 400px;
+  margin-left: 17%;
+  margin-top: 80px;
+}
+
+.overView {
+  padding-left: 17%;
+  margin-top: 50px;
+  background-color: #FAF9FA;
+}
+
+.overView > h1 {
+  font-size: 40px;
+  width: 75%;
+  font-family: display-Bold,sans-serif;
+  color: rgb(25 34 42/var(--tw-text-opacity));
+  line-height: 1.2em;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.overViewBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overViewType > p {
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.overViewType > h3 {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.overViewIndustry > p {
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.overViewIndustry > h3 {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.overViewTech > p {
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.overViewTech > h3 {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.keyResults {
+  padding-left: 17%;
+  padding-top: 100px;
+  background-color: #FAF9FA;
+}
+
+.keyResultsHead {
+  font-size: 40px;
+  width: 75%;
+  font-family: display-Bold,sans-serif;
+  color: rgb(25 34 42/var(--tw-text-opacity));
+  line-height: 1.2em;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.keyBottomyResults {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.userCapacity {
+  height: 150px;
+  width: 300px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0 solid #e7e7e7;
+  background-color: white;
+  --tw-bg-opacity: 1!important;
+  padding-left: 20px;
+}
+
+.userCapacity > h1 {
+  font-family: display-Semibold,sans-serif;
+  line-height: 1.5em;
+  --tw-text-opacity: 1;
+  color: rgb(202 5 21/var(--tw-text-opacity));
+  padding-bottom: 0.5rem;
+  font-weight: inherit;
+  font-family: display-Semibold,sans-serif;
+}
+
+.userCapacity > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 18px;
+  letter-spacing: .05em;
+  opacity: 1;
+  color: rgb(56 55 55/var(opacity));
+}
+
+.potentialDev {
+  height: 150px;
+  width: 300px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0 solid #e7e7e7;
+  background-color: white;
+  --tw-bg-opacity: 1!important;
+  padding-left: 20px;
+}
+
+.potentialDev > h1 {
+  font-family: display-Semibold,sans-serif;
+  line-height: 1.5em;
+  --tw-text-opacity: 1;
+  color: rgb(202 5 21/var(--tw-text-opacity));
+  padding-bottom: 0.5rem;
+  font-weight: inherit;
+  font-family: display-Semibold,sans-serif;
+}
+
+.potentialDev > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 18px;
+  letter-spacing: .05em;
+  opacity: 1;
+  color: rgb(56 55 55/var(opacity));
+}
+
+.productDesign {
+  padding-left: 17%;
+  padding-top: 100px;
+  background-color: #FAF9FA;
+}
+
+.productDesign > h1{
+  font-size: 40px;
+  width: 75%;
+  font-family: display-Bold,sans-serif;
+  color: rgb(25 34 42/var(--tw-text-opacity));
+  line-height: 1.2em;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.productDesign > img {
+  width: 80%;
+}
+
+.aboutClient {
+  padding-left: 17%;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-color: #01A395;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutClient > h5 {
+  font-size: 18px!important;
+  width: 30%;
+  font-family: display-Semibold,sans-serif!important;
+  color: white;
+  line-height: 1.5em!important;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.aboutC {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.aboutC > h1 {
+  font-size: 34px!important;
+  width: 75%;
+  font-family: display-Bold,sans-serif;
+  color: white;
+  line-height: 1.2em;
+  font-weight: inherit;
+  padding-bottom: 0.75rem;
+  padding-top: 0.125rem;
+}
+
+.aboutC > h5 {
+  font-family: display-Light,sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: .05em;
+  width: 90%;
+  color: white;
+  font-weight: inherit;
+}
+
+.aboutC > p {
+  font-family: display-Light,sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  width: 90%;
+  color: white;
+  font-weight: inherit;
+}
+
+.productVision {
+  padding-left: 17%;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: #FAF9FA;
+  display: flex;
+  justify-content: space-around;
+}
+
+.productVision > h1 {
+  width: 30%;
+  color: #FF0000;
+  opacity: 1!important;
+  line-height: 1.5em!important;
+  font-size: 18px!important;
+  font-family: display-Semibold,sans-serif!important;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.productVisionRight {
+  padding-left: 20px;
+  width: 90%;
+}
+
+.visionRight > h2 {
+  width: 70%;
+  font-size: 30px!important;
+  padding-bottom: 0.5rem;
+  padding-top: 0.125rem;
+  font-family: display-Bold,sans-serif;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.visionRight > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  width: 75%;
+  letter-spacing: .05em;
+}
+
+.objectivs {
+  padding-top: 40px;
+}
+
+.objectivs > h3 {
+  padding-bottom: 0.5rem;
+  font-family: display-Medium,sans-serif;
+  font-size: 24px;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.objectivs > ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 0;
+  list-style: none;
+}
+
+.objectivs > ul > li {
+  font-size: 15px;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  padding-bottom: 1rem;
+  font-family: display-Light,sans-serif;
+}
+
+.executionJourney {
+  padding-left: 17%;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: #FAF9FA;
+}
+
+.executionJourney > h3 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  font-family: display-Medium,sans-serif;
+  font-size: 24px!important;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.executionJourney > img {
+  width: 80%;
+}
+
+.technicalArchitecture {
+  padding-left: 17%;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #FAF9FA;
+}
+
+.technicalArchitecture > h5 {
+  width: 30%;
+  color: #FF0000;
+  opacity: 1!important;
+  line-height: 1.5em!important;
+  font-size: 18px!important;
+  font-family: display-Semibold,sans-serif!important;
+  font-weight: inherit;
+  letter-spacing: .05em;
+}
+
+.technicalArchitecture > h2 {
+  width: 45%;
+  font-size: 34px!important;
+  padding-bottom: 0.5rem;
+  padding-top: 0.125rem;
+  font-family: display-Bold,sans-serif;
+  font-weight: inherit;
+  line-height: 1.2em;
+}
+
+.technicalArchitecture > p {
+  padding-bottom: .5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  width: 75%;
+}
+
+.communicationFlow {
+  padding-left: 17%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #FAF9FA;
+}
+
+.communicationFlow > img {
+  width: 80%;  
+}
+
+.projectExecution {
+  padding-left: 17%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #FFF;
+}
+
+.projectExecution > h2 {
+  font-size: 34px!important;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: display-Bold,sans-serif;
+  width: 70%;
+}
+
+.projectExecution > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  width: 75%;
+}
+
+.projectExecution > h5 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-family: display-Medium,sans-serif;
+  font-size: 24px!important;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.projectExecution > ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 0;
+}
+
+.projectExecution > ul > li {
+  list-style-type: disc;
+  font-size: 16px;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  padding-bottom: 1rem;
+  font-family: display-Light,sans-serif;
+}
+
+.userFlow {
+  padding-left: 17%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #FAF9FA
+}
+
+.userFlow > h3{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-family: display-Medium,sans-serif;
+  font-size: 24px!important;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.consumerFlow > h4 {
+  padding-top: 1rem;
+  font-family: display-Regular,sans-serif;
+  font-size: 20px!important;
+  padding-bottom: 0.5rem;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.consumerFlow > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  width: 70%;
+}
+
+.consumerFlow > img {
+  width: 80%;
+}
+
+.agentFlow > h4 {
+  padding-top: 1rem;
+  font-family: display-Regular,sans-serif;
+  font-size: 20px!important;
+  padding-bottom: 0.5rem;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.agentFlow > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  width: 70%;
+}
+
+.agentFlow > img {
+  width: 80%;
+}
+
+.adminFlow > h4 {
+  padding-top: 1rem;
+  font-family: display-Regular,sans-serif;
+  font-size: 20px!important;
+  padding-bottom: 0.5rem;
+  font-weight: inherit;
+  line-height: 1.5em;
+}
+
+.adminFlow > p {
+  padding-bottom: 0.5rem;
+  font-family: display-Light,sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  width: 70%;
+}
+
+.adminFlow > img {
+  width: 80%;
+}

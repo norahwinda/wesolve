@@ -1,0 +1,232 @@
+.contactUsPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userDetails {
+  padding-left: 2rem!important;
+  padding-right: 2rem!important;
+  box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 0.75);
+  padding-bottom: 2.5rem!important;
+  margin-top: 3.5rem!important;
+  margin-bottom: 3.5rem!important;
+  background-color: rgb(255 255 255)!important;
+  border-radius: 1rem!important;
+  border-width: 1px!important;
+  width: 70%;
+}
+
+#userDetails {
+  display: none;
+}
+
+.userDetails > h2 {
+  font-size: 34px;
+  line-height: 1.5em;
+  font-family: display-Semibold,sans-serif;
+  color: rgb(25 34 42);
+  font-weight: inherit;
+}
+
+.userDetails > p {
+  color: rgb(72 83 95)!important;
+  letter-spacing: .05em!important;
+  line-height: 1.5em!important;
+  font-size: 20px!important;
+  margin-top: 0.75rem!important;
+  margin-bottom: 1rem!important;
+  font-family: display-Regular,sans-serif;
+}
+
+.userDetailsBottom {
+  display: grid!important;
+  grid-template-columns: repeat(3,minmax(0,1fr))!important;
+  column-gap: 3rem!important;
+  row-gap: 1rem!important;
+}
+
+.customerNames > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.customerNames > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.emailId > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.emailId > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.companyName > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.companyName > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.contact > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.contact > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.country > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.country > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.aboutUs > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.aboutUs > input {
+  border-color: lightgray;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-family: display-Regular,sans-serif;
+}
+
+.expectations > p {
+  color: rgb(25 34 42);
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+}
+
+.expectations > textarea {
+  height: 6rem;
+  width: 90.666667%;
+  color: rgb(25 34 42);
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  font-family: display-Regular,sans-serif;;
+  font-size: 100%;
+}
+
+.btnn > button {
+  border-radius: 0.25rem;
+  border-style: none;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 80px;
+  width: 60%;
+  cursor: pointer;
+  background-color: rgb(42 43 59);
+  font-size: 18px;
+  color: rgb(221 223 225);
+  height: 3rem;
+  border-width: 1px;
+}
+
+.thankyou {
+  display: none;
+}
+
+#thankyou {
+  display: block;
+}
+
+.thankyou > h1 {
+  font-family: display-Semibold,sans-serif;
+  font-size: 34px;
+  opacity: 1;
+  color: rgb(25 34 42);
+}
+
+.thankyou > p {
+  padding-bottom: 0.75rem;
+  color: rgb(56 55 55)!important;
+  font-family: display-Regular,sans-serif!important;
+  font-size: 20px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.btnn2 > button {
+  border-radius: 0.25rem;
+  border-style: none;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 30px;
+  width: 40%;
+  cursor: pointer;
+  background-color: rgb(42 43 59);
+  font-size: 18px;
+  color: rgb(221 223 225);
+  height: 3rem;
+  border-width: 1px;
+}
+
+

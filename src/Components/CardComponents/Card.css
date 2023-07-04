@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 0.75);
+    transition: border-radius .5s ease-in-out .3s;
+}
+
+.card:hover{
+  border-radius: 999px;
+}
+
+.card > h1 {
+  font-weight: 600;
+  font-size: 17px;
+  font-family: display-Regular,sans-serif!important;
+  margin-top: 30px;
+  color: #00A887;
+}
+
+.card > p {
+  font-weight: 300;
+  font-size: 15px;
+  color: gray; 
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  font-family: display-Regular,sans-serif!important;
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    width: 400px;
+    height: 310px;
+  }
+}

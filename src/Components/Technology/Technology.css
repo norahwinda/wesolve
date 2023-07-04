@@ -1,0 +1,190 @@
+.technology {
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.techHead > h1 {
+  margin-right: 0.5rem!important;
+  margin-bottom: 40px;
+  color: black;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+  margin-left: 80px;
+}
+
+.techHead > p {
+  margin-left: 80px;
+  margin-right: 0.5rem!important;
+  margin-bottom: 40px;
+  color: gray;
+  line-height: inherit;
+  letter-spacing: .05em;
+  font-family: display-Regular,sans-serif;
+  width: 80%;
+}
+
+.techBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.reactNative {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nativeIcon {
+  width: 100%;
+  height: 100%;
+  color: #5ED3F3;
+}
+
+.next {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nextIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.flutter {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .flutterIcon {
+    width: 100%;
+    height: 100%;
+    color: #5BC2F0;
+  }
+
+  .design {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .designIcon {
+    width: 100%;
+    height: 100%;
+    color: #F7AD81;
+  }
+
+  .graphql {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .graphalIcon {
+    width: 100%;
+    height: 100%;
+    color: #DE33A6;
+  }
+
+  .node {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .nodeIcon {
+    width: 100%;
+    height: 100%;
+    color: #73AB63;
+  }
+
+  .postgresql {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .postgresqlIcon {
+    width: 100%;
+    height: 100%;
+    color: #31648C;
+  }
+
+  .serverless {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .serverlessIcon {
+    width: 100%;
+    height: 100%;
+    color: #F5544D;
+  }

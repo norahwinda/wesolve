@@ -1,0 +1,304 @@
+.bankingApp {
+  width: 100%;
+}
+
+.designPciCompany {
+    background-color: #2A2B3B;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+  }
+  
+  .designPciCompanyTop {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .designPciCompanyTopImg {
+    width: 90px!important;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+  .designPciCompanyTopImg > img {
+    width: 80%!important;
+    height: 80% !important;
+  }
+  
+  .designPciCompanyTopRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  
+  .designPciCompanyTopRight > h1 {
+    font-size: 35px;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    color: white;
+    font-family: display-Bold,sans-serif;
+    width: 70%;
+  }
+  
+  .designPciCompanyTopRight > p {
+    line-height: 1.5em!important;
+    font-size: 22px!important;
+    letter-spacing: .05em!important;
+    font-weight: 400!important;
+    font-family: display-Light,sans-serif!important;
+    max-width: 48rem!important;
+    margin-top: 0.5rem!important;
+    color: white;
+  }
+  
+  .designPciCompanyMiddle {
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .designPciCompanyMiddle > h5 {
+    width: 7rem!important;
+    height: 1.5rem!important;
+    margin-right: 0.5rem!important;
+    color: rgba(255,255,255,.7)!important;
+    line-height: inherit;
+    letter-spacing: .05em;
+    font-family: display-Regular,sans-serif;
+  }
+  
+  .designPciCompanyMiddle > p {
+    flex: 1 1 0%!important;
+    height: 100%!important;
+    color: rgba(255,255,255,.7)!important;
+    line-height: inherit;
+    letter-spacing: .05em;
+    font-family: display-Regular,sans-serif;
+    margin-left: 25px;
+  }
+  
+  .designPciCompanyBottom {
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .designPciCompanyBottom > h5 {
+    width: 7rem!important;
+    height: 1.5rem!important;
+    margin-right: 0.5rem!important;
+    color: rgba(255,255,255,.7)!important;
+    line-height: inherit;
+    letter-spacing: .05em;
+    font-family: display-Regular,sans-serif;
+  }
+  
+  .designPciCompanyBottom > p {
+    flex: 1 1 0%!important;
+    height: 100%!important;
+    color: rgba(255,255,255,.7)!important;
+    line-height: inherit;
+    letter-spacing: .05em;
+    font-family: display-Regular,sans-serif;
+    margin-left: 25px;
+  }
+  
+  .aboutPci {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .aboutPci > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .aboutPci > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important;
+    }
+  
+    .theProblem {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .theProblem > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .theProblem > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important;
+    }
+  
+    .teamOnCall {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .teamOnCall > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .teamOnCall > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important;
+    }
+  
+    .requirements {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .requirements > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .requirements > img {
+      width: 80%;
+    }
+  
+    .development {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .development > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .development > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important;
+    }
+  
+    .overComing {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .overComing > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .overComing > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important;
+    }
+  
+    .birdView {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .birdView > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .birdView > ul {
+      list-style: revert;
+      list-style-position: inside;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .birdView > ul > li {
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(52 51 58);
+    }
+  
+    .final {
+      padding-left: 10%;
+      padding-top: 70px;
+    }
+  
+    .final > h1 {
+      font-weight: 600!important;
+      font-size: 24px!important;
+      line-height: 1.5em!important;
+      margin-bottom: 1rem!important;
+      letter-spacing: .01em;
+      font-family: display-Regular,sans-serif;
+    }
+  
+    .final > p {
+      width: 80%;
+      margin-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      letter-spacing: .01em!important;
+      font-size: 14px!important;
+      line-height: 1.5em!important;
+      font-family: display-Regular,sans-serif!important;
+      color: rgb(112 112 112)!important
+    }

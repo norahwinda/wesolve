@@ -1,0 +1,318 @@
+.designDet {
+    width: 100%;
+  }
+  
+  .reactNTop {
+    background-color: #006666;
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .reactNTop > h1 {
+    font-family: display-Regular,sans-serif!important;
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: inherit;
+    width: 60%;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .reactNTop > p {
+    color: rgb(228 228 228)!important;
+    line-height: 1.5em!important;
+    font-size: 18px!important;
+    font-family: display-Light,sans-serif!important;
+    tab-size: 4;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .reactNTop > button {
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    background-color: #006666;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-family: display-Light,sans-serif!important;
+  }
+  
+  .aboutReactNativ {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .aboutReactNativ > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .aboutReactNativ > p {
+    padding-bottom: 0.75rem;
+    color: rgb(56 55 55)!important;
+    font-family: display-Regular,sans-serif!important;
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .reatNBenefits {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .reatNBenefits > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .reatNBenefits > ul {
+    background-color: white;
+    list-style: none;
+    display: grid!important;
+    grid-template-columns: repeat(3,minmax(0,1fr))!important;
+    column-gap: 3rem!important;
+    row-gap: 1rem!important;
+  }
+  
+  .reatNBenefits > ul > li {
+    font-size: 20px!important;
+    line-height: 1.5em!important;
+    color: rgb(56 55 55)!important;
+  }
+  
+  .whyUsReactN {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .whyUsReactN > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .whyUsReactNBottom {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .why {
+    height: 200px;
+    padding: 2rem!important;
+    border: 2px solid rgb(244 244 244);
+    border-radius: 0.25rem!important;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  
+  .why > h1 {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: display-Semibold,sans-serif;
+    padding-top: 1.5rem!important;
+    color: rgb(25 34 42)!important;
+    padding-bottom: 0.5rem!important;
+  }
+  
+  .why > p {
+    padding-bottom: 0.75rem;
+    font-size: 18px!important;
+    line-height: 1.5em!important;
+    color: rgb(56 55 55)!important;
+  }
+  
+  .whatWeOffer {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .whatWeOffer > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .whatWeOffer > p {
+    padding-bottom: 0.75rem;
+    color: rgb(56 55 55)!important;
+    font-family: display-Regular,sans-serif!important;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .025em;
+    opacity: 1!important;
+    width: 90%;
+  }
+  
+  .ourServices {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+  }
+  
+  .ourServices > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .reactNCommunity {
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    background-color: #006666;
+  }
+  
+  .reactNCommunity > h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+    color: rgb(255 255 255)!important;
+    font-family: display-Bold,sans-serif!important;
+  }
+  
+  .reactNCommunity > p {
+    padding-bottom: 0.75rem;
+    color: rgb(228 228 228)!important;
+    font-family: display-Regular,sans-serif!important;
+    font-size: 20px;
+    line-height: 1.5em;
+    opacity: 1!important;
+    letter-spacing: .025em;
+    width: 90%;
+  }
+  
+  .reactNCommunity > button {
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    background-color: #006666;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-family: display-Light,sans-serif!important;
+  }
+  
+  .reactNSuccesStoies{
+    height: 100%;
+    padding-top: 50px;
+    display: block;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    background-color: #FFF4F0;
+  }
+  
+  .reactNSuccesStoies > h1 {
+    font-family: display-Bold,sans-serif!important;
+    letter-spacing: .025em!important;
+    font-size: 40px;
+    line-height: 1.2em;
+    width: 60%;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .reactNSuccesStoies > p {
+    padding-bottom: 0.75rem;
+    color: rgb(56 55 55)!important;
+    font-family: display-Regular,sans-serif!important;
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .sampleWork {
+    height: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .sampleWorkDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 8px;
+  }
+  
+  .sampleWorkDiv > img {
+    width: 320px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .sampleWorkDiv > h1 {
+    line-height: 1.5em!important;
+    font-size: 24px!important;
+    color: rgb(25 34 42)!important;
+    font-family: display-Semibold,sans-serif!important;
+  }
+  
+  .sampleWorkDiv > p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-family: display-Light,sans-serif;
+    letter-spacing: .05em;
+    color: rgb(56 55 55);
+  }
+  

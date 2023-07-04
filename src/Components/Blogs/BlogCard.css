@@ -1,0 +1,36 @@
+.blogCard {
+  cursor: pointer;
+  width: 300px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+}
+
+.blogCard:hover {
+  transform: scale(1.07);
+}
+
+.blogCard > img {
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.blogCard > h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.blogCard > p {
+  font-weight: 300;
+  margin-left: 10px;
+  font-family: display-Regular,sans-serif!important;
+}

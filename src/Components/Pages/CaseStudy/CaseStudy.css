@@ -1,0 +1,320 @@
+.caseStudy {
+  background-color: white;
+}
+
+.csTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.csTopLeft {
+  width: 65%;
+  margin-left: 5%;  
+}
+
+.csTopLeft > h1 {
+  font-family: display-Bold,sans-serif!important;
+  font-size: 48px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+.csTopLeft > p {
+  font-family: display-Bold,sans-serif!important;
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.csTop > img {
+  margin-right: 1%;
+}
+
+.csMid {
+  width: 100%;
+  background-color: #F4F4F4;
+  padding-top: 80px;
+}
+
+.csMiddle {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #F4F4F4;
+}
+
+.csMiddleBtns {
+  margin-left: 120px;
+  margin-right: 70px;
+}
+
+.btn1 {
+  width: 75px;
+  height: 35px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn1 {
+  background-color: #2A2B3B;
+  border-left: 2px solid #2A2B3B;
+}
+
+#latest {
+  color: black;
+  background-color: white;
+}
+
+.btn2 {
+  width: 75px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn2 {
+  background-color: #2A2B3B;
+  border-left: 2px solid #2A2B3B;
+  color: white;
+}
+
+.selectItems {
+  color: black;
+  font-family: display-Regular,sans-serif!important;
+  font-size: 14px; 
+}
+
+.services {
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  background-color: white;
+  margin-right: 30px;
+  box-shadow: none;
+  color: black;
+  font-family: display-Regular,sans-serif!important;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: "none";
+  cursor: 'pointer';
+}
+
+.industry {
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  background-color: white;
+  margin-right: 70px;
+  box-shadow: none;
+  color: black;
+  font-family: display-Regular,sans-serif!important;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  background-color: white;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+
+.txt > input {
+  width: 300px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  padding-left: 20px;
+  font-family: display-Regular,sans-serif!important;
+  color: gray;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.middlelatest {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.middleFeatured {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.webDiv {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mobileDiv {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.designDiv {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.backEnd {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cyberSecurity {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eCommerse {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.financeDiv {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Manufacturing {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.healthcare {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.entertaiment {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hospitality {
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social{
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.education{
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marketing {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sports {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.fintech {
+  height: 100vh;
+  padding-top: 70px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .csTop > img {
+    display: none;
+  }
+
+  .csTopLeft {
+    width: 90%;
+  }
+
+  .csMiddle > input {
+    margin-right: 30px;
+  }
+}

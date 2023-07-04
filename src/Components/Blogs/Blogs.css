@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+.blogs {
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #F4F4F9;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.blogs > h1 {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.blogs > p {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.blogHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogHeader > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: display-Regular,sans-serif!important;
+}
+
+.blogCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+@media only screen and (max-width: 850px) {
+  .blogs > h1 {
+    margin-left: 40px;
+  }
+
+  .blogHeader {
+    margin-left: 30px;
+  }
+}
